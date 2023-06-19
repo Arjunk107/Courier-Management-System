@@ -1,0 +1,86 @@
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fwallpaper%2F&psig=AOvVaw2lXn0TBdZNYYuDDHG7pt05&ust=1679462675279000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNDo65Kk7P0CFQAAAAAdAAAAABAE");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #FFFFE0;
+}
+
+.card {
+    display:flex;
+    max-width: 90%;
+    padding: 30px 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+
+
+.blue-text {
+    color: #00BCD4
+}
+
+.form-control-label {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+input,
+textarea,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+h2{
+    color:#000;
+    text-align: left;
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.btn-block {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer
+}
+
+.btn-block:hover {
+    color: #fff !important
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+#sstationcode {
+    margin-right: 123px;
+  }
+
+
+  #stationcode {
+    margin-left: 130px;
+  }
